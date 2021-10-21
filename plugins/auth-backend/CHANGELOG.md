@@ -1,5 +1,17 @@
 # @backstage/plugin-auth-backend
 
+## 0.4.5
+
+### Patch Changes
+
+- 9322e632e9: Require that audience URLs for Okta authentication start with https
+- de3e26aecc: Fix a bug preventing an access token to be refreshed a second time with the GitHub provider.
+- 36e67d2f24: Internal updates to apply more strict checks to throw errors.
+- Updated dependencies
+  - @backstage/backend-common@0.9.7
+  - @backstage/errors@0.1.3
+  - @backstage/catalog-model@0.9.5
+
 ## 0.4.4
 
 ### Patch Changes
